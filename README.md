@@ -1,4 +1,4 @@
-# [Knight's Travails](https://ivrlic.github.io/battleship/)
+# [Battleship](https://ivrlic.github.io/battleship/)
 
 Battleship is a web application that implements the popular game "Battleship." The game is played between a player and the computer, aiming to sink all the opponent's ships.
 
