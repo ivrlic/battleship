@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+
+# Compiled files
+dist/
+build/
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# macOS system files
+.DS_Store
+
+# Log files
+logs/
+
+# Ignore JSDoc generated files
+out/
+
+# Temporary files
+*.log
+
+# Ignore the Quokka cache folder
+.quokka/
+
+# Ignoring npm-related files
+package-lock.json

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title>The Battleship Game</title>
+</head>
+
+<body>
+    <header>
+      <h1>BATTLESHIP</h1>
+    </header>
+
+    <div class="intro" id="intro">
+      <p>Welcome to the Battleship Game!</p>
+      <p>Enter your name and try to beat the computer.</p>
+      <input type="text" placeholder="NAME" id="input-name" maxlength="12">
+      <button class="intro-close-btn" id="intro-close-btn">START GAME</button>
+    </div>
+
+    <div class="game-cont" ID="game-cont">
+      <div class="player-board" id="player-board"></div>
+      <div class="enemy-board" id="enemy-board"></div>
+    </div>
+
+    <div class="placing-ships-cont" id="placing-ships-cont">
+      <div class="placing-ships-board" id="placing-ships-board"></div>
+      <div class="placing-ships-list" id="placing-ships-list"></div>
+      <button class="placing-ships-btn" id="placing-ships-btn">OK</button>
+    </div>
+
+    <div class="back-layer" id="back-layer"></div>
+
+    <div class="message-cont" id="message-cont">
+      <p class="message" id="message"></p>
+    </div>
+
+    <div class="audio-cont" id="audio-cont">
+      <img src="./images/sound-off.png" alt="small black icon of sound on">
+    </div>
+
+  <footer>
+    <p>icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+    <p>sounds by <a target="_blank" href="https://pixabay.com">Pixabay</a></p>
+    <p>made by ivrlic</p>
+  </footer>
+  <script src="/src/app.js" type="module"></script>
+</body>
+</html>
