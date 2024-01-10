@@ -4,7 +4,8 @@ const inputName = document.getElementById('input-name')
 
 
 let isAudioOn = false;
-const backgroundMusic = new Audio ('./../../sounds/warrior-music.mp3');
+const backgroundMusic = new Audio ('./sounds/warrior-music.mp3');
+// const backgroundMusic = new Audio ('../../sounds/warrior-music.mp3');
 backgroundMusic.volume = 0;
 backgroundMusic.loop = true;
 let currentStageVolume = 0.06
@@ -84,7 +85,7 @@ function fadeOutVolume (currentVolume, desiredVolume, duration) {
 
 function makeHitSound () {
   if (isAudioOn) {
-    const newAudio = new Audio ('./../../sounds/hit.mp3');
+    const newAudio = new Audio ('./sounds/hit.mp3');
     newAudio.volume = 0.13;
     newAudio.play();
   }
@@ -92,7 +93,7 @@ function makeHitSound () {
 
 function makeSinkSound () {
   if (isAudioOn) {
-    const newAudio = new Audio ('./../../sounds/sunk.mp3');
+    const newAudio = new Audio ('./sounds/sunk.mp3');
     newAudio.volume = 0.17;
     newAudio.play();
   }
@@ -100,7 +101,7 @@ function makeSinkSound () {
 
 function makeMissSound () {
   if (isAudioOn) {
-    const newAudio = new Audio ('./../../sounds/miss.mp3');
+    const newAudio = new Audio ('./sounds/miss.mp3');
     newAudio.volume = 0.13;
     newAudio.play();
   }
@@ -108,7 +109,7 @@ function makeMissSound () {
 
 function makeButtonSound () {
   if (isAudioOn) {
-    const newAudio = new Audio ('./../../sounds/button.wav');
+    const newAudio = new Audio ('./sounds/button.wav');
     newAudio.volume = 0.45;
     newAudio.play();
   }
@@ -116,7 +117,7 @@ function makeButtonSound () {
 
 function makeChangeDirSound () {
   if (isAudioOn) {
-    const newAudio = new Audio ('./../../sounds/change-dir.wav');
+    const newAudio = new Audio ('./sounds/change-dir.wav');
     newAudio.volume = 0.15;
     newAudio.play();
   }
@@ -124,7 +125,7 @@ function makeChangeDirSound () {
 
 function makeClickSound () {
   if (isAudioOn) {
-    const newAudio = new Audio ('./../../sounds/click.wav');
+    const newAudio = new Audio ('./sounds/click.wav');
     newAudio.volume = 0.175;
     newAudio.play();
   }
@@ -132,7 +133,7 @@ function makeClickSound () {
 
 function makePickSound () {
   if (isAudioOn) {
-    const newAudio = new Audio ('./../../sounds/pick.mp3');
+    const newAudio = new Audio ('./sounds/pick.mp3');
     newAudio.volume = 0.175;
     newAudio.play();
   }
@@ -140,7 +141,7 @@ function makePickSound () {
 
 function makePlacingShipSound () {
   if (isAudioOn) {
-    const newAudio = new Audio ('./../../sounds/placing-ship.wav');
+    const newAudio = new Audio ('./sounds/placing-ship.wav');
     newAudio.volume = 0.075;
     newAudio.play();
   }
@@ -148,7 +149,7 @@ function makePlacingShipSound () {
 
 function makeWinningSound () {
   if (isAudioOn) {
-    const newAudio = new Audio ('./../../sounds/winning.wav');
+    const newAudio = new Audio ('./sounds/winning.wav');
     newAudio.volume = 0.1;
     newAudio.play();
   }
@@ -156,7 +157,7 @@ function makeWinningSound () {
 
 function makeLosingSound () {
   if (isAudioOn) {
-    const newAudio = new Audio ('./../../sounds/losing.wav');
+    const newAudio = new Audio ('./sounds/losing.wav');
     newAudio.volume = 0.2;
     newAudio.play();
   }
